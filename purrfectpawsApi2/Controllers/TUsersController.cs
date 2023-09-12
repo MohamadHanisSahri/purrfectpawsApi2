@@ -86,7 +86,7 @@ namespace PurrfectpawsApi.Controllers
             return Content(jsonString, "application/json");
         }
 
-        [Authorize]
+        //[Authorize]
         // GET: api/TUsers/5
         [HttpGet("{id}")]
         public async Task<ActionResult<TUser>> GetTUser(int id)
