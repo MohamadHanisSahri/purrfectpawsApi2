@@ -60,8 +60,8 @@ namespace purrfectpawsApi2
                 app.UseSwagger();
                 app.UseSwaggerUI(options =>
                 {
-                    options.SwaggerEndpoint("/swagger/v1/swagger.json", "Purrfect Paws API V1");
-                    options.RoutePrefix = string.Empty;
+                    options.SwaggerEndpoint("/swagger/v1/swagger.json", "Purrfect Paws API * V1");
+                    //options.RoutePrefix = string.Empty;
                 });
             }
 
