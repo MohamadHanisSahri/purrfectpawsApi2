@@ -21,7 +21,7 @@ namespace purrfectpawsApi2
                 options.AddPolicy(MyAlloSpecificationOrigins,
                     policy =>
                     {
-                        policy.WithOrigin("https://salmon-coast-085a7fd00.3.azurestaticapps.net").AllowAnyHeader().AllowAnyMethod();
+                        policy.WithOrigins("https://salmon-coast-085a7fd00.3.azurestaticapps.net").AllowAnyHeader().AllowAnyMethod();
                     });
             });
 
